@@ -1,10 +1,15 @@
+# build tools for compiling dlib, OpenCV, etc.
 build-essential
 cmake
 python3-dev
+
+# core libraries for OpenCV GUI and image I/O
 libglib2.0-0
 libsm6
 libxext6
 libxrender-dev
+
+# Kivy dependencies
 libsdl2-dev
 libsdl2-image-dev
 libsdl2-mixer-dev
@@ -13,6 +18,8 @@ libgstreamer1.0-0
 gstreamer1.0-plugins-base
 gstreamer1.0-plugins-good
 gstreamer1.0-plugins-bad
+
+# additional for video capture support
 libavcodec-dev
 libavformat-dev
 libswscale-dev
